@@ -10,3 +10,18 @@ In more specific terms, the model can be referred to as:
 The overall model can be referred to as a Multi-Task Learning (MTL) Model, as it learns to perform multiple related tasks simultaneously.
 
 In terms of the specific architecture, the model can be referred to as a LSTM-based MTL Model with Adversarial Training, due to its use of Long Short-Term Memory (LSTM) layers and adversarial training techniques.
+
+
+
+
+
+📜 Note: This project is still on development so you might face some errors but I am trying to address the errors 🔍 please help if you find some. 
+
+
+😮‍💨 Errors known: 
+
+1. Missing error handling
+2. Lack of hyperparameter tuning
+3. Inconsistent evaluation metrics
+
+    These will be fixed soon guys thank you.😁
