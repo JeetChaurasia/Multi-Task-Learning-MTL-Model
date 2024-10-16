@@ -196,3 +196,6 @@ mse_sentiment = mean_squared_error(y_test_sentiment, y_pred_sentiment)
 print(f'Test MSE score (Aspect): {mse_aspect:.3f}')
 print(f'Test MSE score (Emotion): {mse_emotion:.3f}')
 print(f'Test MSE score (Sentiment): {mse_sentiment:.3f}')
+
+#ERROR handler
+
