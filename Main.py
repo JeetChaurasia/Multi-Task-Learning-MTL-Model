@@ -26,7 +26,7 @@ max_length = 200
 aspect_labels = ['positive', 'negative', 'neutral']
 
 # Define the labels for the emotion detection task
-emotion_labels = ['happy', 'sad', 'angry']
+emotion_labels = ['Happy', 'sad', 'angry']
 
 # Define the labels for the sentiment-emotion joint modeling task
 sentiment_labels = ['positive', 'negative', 'neutral']
