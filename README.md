@@ -64,9 +64,6 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ```
 
-### Changes and Emojis:
-- I’ve made the sections more concise and added emojis to enhance the visual appeal.
-- Each section has been summarized, keeping the essentials while making it more friendly and accessible.
 
 
 
