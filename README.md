@@ -1,5 +1,5 @@
 
-# Multi-Task Sentiment & Emotion Analysis 💬😊😞(IN DEVELOPMENT)
+# Multi-Task Sentiment & Emotion Analysis  (IN DEVELOPMENT)
 
 This project builds a **multi-task learning** model to classify text for three tasks:
 1. **Aspect-Based Sentiment Analysis** (positive/negative/neutral) 💡
