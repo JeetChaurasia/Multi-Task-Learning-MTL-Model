@@ -4,7 +4,7 @@
 This project builds a **multi-task learning** model to classify text for three tasks:
 1. **Aspect-Based Sentiment Analysis** (positive/negative/neutral) 💡
 2. **Emotion Detection** (happy/sad/angry) 😄😢😡
-3. **Sentiment-Emotion Joint Modeling** (combining sentiment & emotion) 💓
+3. **Sentiment-Emotion Joint Modeling** (combining sentiment & emotion) 
 
 ## 📋 Requirements
 - Python 3.6+
