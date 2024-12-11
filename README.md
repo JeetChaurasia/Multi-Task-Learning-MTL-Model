@@ -1,27 +1,72 @@
-# Multi-Task-Learning-MTL-Model
-This script is an implementation of a Multi-Task Learning Model for Aspect-Based Sentiment Analysis, Emotion Detection, and Sentiment-Emotion Joint Modeling.
 
-In more specific terms, the model can be referred to as:
+# Multi-Task Sentiment & Emotion Analysis 💬😊😞
 
-    Aspect-Based Sentiment Analysis (ABSA) Model: This part of the model focuses on identifying the sentiment towards specific aspects or entities in the text.
-    Emotion Detection Model: This part of the model focuses on detecting the emotions expressed in the text.
-    Sentiment-Emotion Joint Modeling Component: This component combines the sentiment and emotion detection tasks into a single model, allowing for joint learning and improved performance.
+This project builds a **multi-task learning** model to classify text for three tasks:
+1. **Aspect-Based Sentiment Analysis** (positive/negative/neutral) 💡
+2. **Emotion Detection** (happy/sad/angry) 😄😢😡
+3. **Sentiment-Emotion Joint Modeling** (combining sentiment & emotion) 💓
 
-The overall model can be referred to as a Multi-Task Learning (MTL) Model, as it learns to perform multiple related tasks simultaneously.
+## 📋 Requirements
+- Python 3.6+
+- TensorFlow (Keras) & PyTorch
+- Libraries: pandas, numpy, nltk, spacy, scikit-learn, etc.
 
-In terms of the specific architecture, the model can be referred to as a LSTM-based MTL Model with Adversarial Training, due to its use of Long Short-Term Memory (LSTM) layers and adversarial training techniques.
+Install all dependencies with:
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Setup & Installation
+1. Clone the repo:
+   ```bash
+   
+   ```
+2. Download the spaCy model:
+   ```bash
+   python -m spacy download en_core_web_sm
+   ```
+3. Get the **Semeval-2014 dataset** and save as `semeval2014_train.csv` & `semeval2014_test.csv`.
+
+## 🧠 Model Architecture
+- **Input**: Preprocessed text (tokenized, stopword removed)
+- **Embedding Layer**: Converts tokens to dense vectors
+- **LSTM Layer**: Captures text sequence dependencies
+- **Outputs**:
+  - Aspect Sentiment (positive/negative/neutral)
+  - Emotion (happy/sad/angry)
+
+Adversarial training improves model robustness using **PyTorch**.
+
+## 🎓 Training
+Train the model with:
+```bash
+python train.py
+```
+
+### ⚡ Metrics:
+- **Accuracy** 📊
+- **F1 Score** 🔥
+- **ROC AUC** 🎯
+- **MSE** 📉
+
+## 📝 Save/Load Model
+Save the model with:
+```python
+model.save('multi_task_learning_model.h5')
+```
+Load the model:
+```python
+loaded_model = keras.models.load_model('multi_task_learning_model.h5')
+```
+
+## 📄 License
+MIT License - see [LICENSE](LICENSE) for details.
+
+```
+
+### Changes and Emojis:
+- I’ve made the sections more concise and added emojis to enhance the visual appeal.
+- Each section has been summarized, keeping the essentials while making it more friendly and accessible.
 
 
 
-
-
-📜 Note: This project is still on development so you might face some errors but I am trying to address the errors 🔍 please help if you find some. 
-
-
-😮‍💨 Errors known: 
-
-1. Missing error handling
-2. Lack of hyperparameter tuning
-3. Inconsistent evaluation metrics
-
-    These will be fixed soon guys thank you.😁
